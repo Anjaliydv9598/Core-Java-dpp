@@ -7,8 +7,8 @@ public class If {
 		int num=20;
 		
 		if(num%5==0) {
-			System.out.println("The given number is divisible by 5");
-		}
+			System.out.println("The given number is divisible by 5 .");
+		}				
 
 	}
 
