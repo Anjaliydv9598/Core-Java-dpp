@@ -6,11 +6,11 @@ public class CallingSMethod {
 		// static int a=5;  -> not alloweded in a method coz it belongs to the class not to method
 		int a=10;
 		System.out.println(a);
-		a=15;						//re-initailizing var a
-	}
+		}
 	
-	public static void sm1() {
+	public static int sm1() {
 		int b=30;
+		return b;
 	}
 	
 	public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class CallingSMethod {
 		sm.sm();										//then access it
 		CallingSMethod obj=new CallingSMethod();			//creating obj
 		obj.sm();
-		sm();
+	System.out.println(obj.sm1());	
 		
 		
 	}
