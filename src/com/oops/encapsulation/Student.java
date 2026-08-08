@@ -22,7 +22,7 @@ public class Student {
 		return name;
 	}
 	
-	public void setSalary(double marks) {
+	public void setMarks(double marks) {
 		this.marks=marks;
 	}
 	
@@ -30,8 +30,19 @@ public class Student {
 		return marks;
 	}
 	
+	
 	public static void main(String[] args) {
+	
+		Student s = new Student();
 		
+		s.setRollno(101);
+		s.setName("Anjali");
+		s.setMarks(89);
+	
+		System.out.println("Roll no : "  + s.getRollno());
+		System.out.println("Name : " + s.getName());
+		System.out.println("Marks : " + s.getMarks());
+	
 	}
 	
 
