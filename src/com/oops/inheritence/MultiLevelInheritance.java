@@ -18,7 +18,7 @@ class Child extends Parent{
 	}
 }
 
-public class MultiLevelInheritence {
+public class MultiLevelInheritance {
 	public static void main(String[] args) {
 	 GrandFather g= new GrandFather();
 	 g.gfDetail();

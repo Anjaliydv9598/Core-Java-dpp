@@ -17,7 +17,7 @@ package com.oops.inheritence;
 	}
 	
 
-public class SingleLevelIheritence {
+public class SingleLevelIheritance {
 	
 	public static void main(String[] args) {
 		
