@@ -1,6 +1,7 @@
 package com.oops.polymorphism;
 
 class Calculator{
+	
 	public int add(int a , int b) {
 		return a+b;
 	}
@@ -9,6 +10,8 @@ class Calculator{
 		return a+b+c;
 	}
 }
+
+
 
 public class CompileTimePolymorphism {
 	public static void main(String[] args) {
